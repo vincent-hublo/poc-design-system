@@ -26,8 +26,8 @@ const config = {
       resolve: {
         alias: [
           {
-            find: "ui",
-            replacement: resolve(__dirname, "../../../packages/ui/"),
+            find: "react-ui",
+            replacement: resolve(__dirname, "../../../packages/react-ui/"),
           },
         ],
       },

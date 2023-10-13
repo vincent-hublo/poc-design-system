@@ -1,0 +1,70 @@
+@layer reset, base, tokens, recipes, utilities;
+
+@import './reset.css';
+
+@import './global.css';
+
+@layer recipes {
+  .button--variant_solid {
+    background: accent.default;
+    color: accent.fg;
+    }
+
+  .button--variant_solid:is(:disabled, [disabled], [data-disabled]) {
+    background: bg.disabled;
+    cursor: not-allowed;
+        }
+
+  .button--size_md {
+    height: 10;
+    min-width: 10;
+    text-style: sm;
+    padding-inline: 4;
+    gap: 2;
+    }
+
+  .button--size_md svg {
+    width: 5;
+    height: 5;
+        }
+
+  .button--variant_solid:is(:focus-visible, [data-focus-visible]) {
+    outline-offset: 2px;
+    outline: 2px solid;
+    outline-color: border.accent;
+        }
+
+  .button--variant_solid:is(:hover, [data-hover]) {
+    background: accent.emphasized;
+        }
+
+  .button--variant_solid:is(:disabled, [disabled], [data-disabled]):is(:hover, [data-hover]) {
+    background: bg.disabled;
+        }
+
+  @layer _base {
+    .button {
+      align-items: center;
+      appearance: none;
+      -webkit-appearance: none;
+      border-radius: l2;
+      cursor: pointer;
+      display: inline-flex;
+      font-weight: semibold;
+      min-width: 0;
+      justify-content: center;
+      outline: 4px solid accent.default;
+      position: relative;
+      --transition-duration: normal;
+      transition-duration: normal;
+      --transition-prop: background, border-color, color, box-shadow;
+      transition-property: background, border-color, color, box-shadow;
+      --transition-easing: default;
+      transition-timing-function: default;
+      -webkit-user-select: none;
+      user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+        }
+    }
+}

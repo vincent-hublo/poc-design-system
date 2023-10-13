@@ -1,0 +1,6 @@
+{
+    "name": "panda-presets",
+    "devDependencies": {
+      "@pandacss/dev": "^0.15.5"
+    }
+}
