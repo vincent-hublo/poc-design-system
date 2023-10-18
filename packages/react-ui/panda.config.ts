@@ -1,5 +1,5 @@
-import { defineConfig } from '@pandacss/dev';
-import { hubloPreset } from 'panda-presets';
+import { defineConfig } from '@pandacss/dev'
+import { hubloPreset } from 'panda-presets'
 
 export default defineConfig({
   // Whether to use css reset
@@ -13,9 +13,10 @@ export default defineConfig({
 
   // The output directory for your css system
   outdir: 'styled-system',
+
   jsxFramework: 'react',
 
   outExtension: 'js',
 
   presets: [hubloPreset],
-});
+})

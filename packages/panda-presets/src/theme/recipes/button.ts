@@ -152,6 +152,17 @@ export const button = defineRecipe({
           height: '5',
         },
       },
+      xxxxxxl: {
+        h: '20',
+        minW: '20',
+        textStyle: 'lg',
+        px: '5',
+        gap: '2.5',
+        '& svg': {
+          width: '5',
+          height: '5',
+        },
+      },
     },
   },
 })

@@ -11,11 +11,6 @@ export default defineConfig({
   // Files to exclude
   exclude: [],
 
-  // Useful for theme customization
-  theme: {
-    extend: {},
-  },
-
   // The output directory for your css system
   outdir: 'styled-system',
 

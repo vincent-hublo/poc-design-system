@@ -38,6 +38,9 @@ const meta: Meta<typeof Button> = {
         button.raw({
           size: 'xl',
         }).size,
+        button.raw({
+          size: 'xxl',
+        }).size,
       ],
     },
     disabled: {
