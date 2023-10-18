@@ -1,34 +1,35 @@
 @layer recipes {
-  .button--variant_solid {
-    background: accent.default;
-    color: accent.fg;
+  .button--variant_primary {
+    background: var(--colors-accent-default);
+    color: var(--colors-accent-fg);
     }
-    .button--variant_solid:is(:disabled, [disabled], [data-disabled]) {
-      background: bg.disabled;
+    .button--variant_primary:is(:disabled, [disabled], [data-disabled]) {
+      background: var(--colors-bg-disabled);
       cursor: not-allowed;
         }
-    .button--variant_solid:is(:focus-visible, [data-focus-visible]) {
+    .button--variant_primary:is(:focus-visible, [data-focus-visible]) {
       outline-offset: 2px;
       outline: 2px solid;
-      outline-color: border.accent;
+      outline-color: var(--colors-border-accent);
         }
-    .button--variant_solid:is(:hover, [data-hover]) {
-      background: accent.emphasized;
+    .button--variant_primary:is(:hover, [data-hover]) {
+      background: var(--colors-accent-emphasized);
         }
-    .button--variant_solid:is(:disabled, [disabled], [data-disabled]):is(:hover, [data-hover]) {
-      background: bg.disabled;
+    .button--variant_primary:is(:disabled, [disabled], [data-disabled]):is(:hover, [data-hover]) {
+      background: var(--colors-bg-disabled);
         }
 
   .button--size_md {
-    height: 10;
-    min-width: 10;
-    text-style: sm;
-    padding-inline: 4;
-    gap: 2;
+    height: var(--sizes-12);
+    min-width: var(--sizes-12);
+    font-size: var(--font-sizes-sm);
+    line-height: 1.25rem;
+    padding-inline: var(--spacing-4);
+    gap: var(--spacing-2);
     }
     .button--size_md svg {
-      width: 5;
-      height: 5;
+      width: var(--sizes-5);
+      height: var(--sizes-5);
         }
 
   @layer _base {
@@ -36,20 +37,20 @@
       align-items: center;
       appearance: none;
       -webkit-appearance: none;
-      border-radius: l2;
+      border-radius: var(--radii-l2);
       cursor: pointer;
       display: inline-flex;
-      font-weight: semibold;
-      min-width: 0;
+      font-weight: var(--font-weights-semibold);
+      min-width: var(--sizes-0);
       justify-content: center;
-      outline: 4px solid accent.default;
+      outline: var(--borders-none);
       position: relative;
-      --transition-duration: normal;
-      transition-duration: normal;
+      --transition-duration: var(--durations-normal);
+      transition-duration: var(--durations-normal);
       --transition-prop: background, border-color, color, box-shadow;
       transition-property: background, border-color, color, box-shadow;
-      --transition-easing: default;
-      transition-timing-function: default;
+      --transition-easing: var(--easings-default);
+      transition-timing-function: var(--easings-default);
       -webkit-user-select: none;
       user-select: none;
       vertical-align: middle;

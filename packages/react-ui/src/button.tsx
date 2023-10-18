@@ -1,17 +1,7 @@
-import * as React from "react";
-import { button } from '../styled-system/recipes'
+import { ark, type HTMLArkProps } from '@ark-ui/react'
+import { styled } from '../styled-system/jsx'
+import { button, type ButtonVariantProps } from '../styled-system/recipes'
 
+export type ButtonProps = ButtonVariantProps & HTMLArkProps<'button'>
 
-export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  children: React.ReactNode;
-}
-
-export const Button = ({ children, ...other }: ButtonProps) => {
-  return (
-    <button type="button"  className={button()}  {...other}>
-      {children}
-    </button>
-  );
-}
-
+export const Button = styled(ark.button, button)

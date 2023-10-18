@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "prepare": "panda codegen",
     "dev": "storybook dev -p 6006",
     "build": "storybook build --docs",
     "preview-storybook": "serve storybook-static",
@@ -12,9 +13,11 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-ui": "workspace:*"
+    "react-ui": "workspace:*",
+    "panda-presets": "workspace:*"
   },
   "devDependencies": {
+    "@pandacss/dev": "^0.15.5",
     "@storybook/addon-actions": "^7.4.0",
     "@storybook/addon-docs": "^7.4.0",
     "@storybook/addon-essentials": "^7.4.0",

@@ -1,5 +1,5 @@
 {
   "extends": "tsconfig/react-app.json",
-  "include": ["."],
+  "include": [".", "styled-system"],
   "exclude": ["dist", "build", "node_modules"]
 }

@@ -2,14 +2,14 @@ import { splitProps } from '../helpers.js';
 import { createRecipe } from './create-recipe.js';
 
 const buttonFn = /* @__PURE__ */ createRecipe('button', {
-  "variant": "solid",
+  "variant": "primary",
   "size": "md"
 }, [])
 
 const buttonVariantMap = {
   "variant": [
-    "solid",
-    "outline",
+    "primary",
+    "secondary",
     "ghost",
     "link"
   ],
@@ -18,8 +18,7 @@ const buttonVariantMap = {
     "sm",
     "md",
     "lg",
-    "xl",
-    "2xl"
+    "xl"
   ]
 }
 

@@ -1,1 +1,1 @@
-import 'react-ui/dist/index.css'
+import '../src/index.css'
