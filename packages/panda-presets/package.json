@@ -1,5 +1,6 @@
 {
   "name": "@hublo/panda-presets",
+  "version": "0.0.0",
   "main": "src/index.ts",
   "files": [
     "dist/**"
