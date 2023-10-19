@@ -1,5 +1,15 @@
 {
   "name": "@hublo/panda-presets",
+  "main": "src/index.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts"
+  },
+  "dependencies": {
+    "@ark-ui/anatomy": "^0.1.0"
+  },
   "devDependencies": {
     "@pandacss/dev": "^0.15.5",
     "tsup": "7.2.0"
@@ -15,9 +25,5 @@
       "esm",
       "cjs"
     ]
-  },
-  "main": "src/index.ts",
-  "dependencies": {
-    "@ark-ui/anatomy": "^0.1.0"
   }
 }
