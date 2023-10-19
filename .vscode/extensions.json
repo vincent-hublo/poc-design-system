@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "chakra-ui.panda-css-vscode",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "unional.vscode-sort-package-json",
+    "amatiasq.sort-imports"
+  ]
+}

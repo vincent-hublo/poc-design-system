@@ -6,5 +6,6 @@
       "mode": "auto"
     }
   ],
-  "sort-imports.on-save": true
+  "sort-imports.on-save": true,
+  "editor.codeActionsOnSave": ["source.sortPackageJson"]
 }
