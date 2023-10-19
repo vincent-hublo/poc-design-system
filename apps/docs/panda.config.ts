@@ -1,5 +1,5 @@
 import { defineConfig } from '@pandacss/dev'
-import { hubloPreset } from 'panda-presets'
+import { hubloPreset } from '@hublo/panda-presets'
 
 export default defineConfig({
   // Whether to use css reset

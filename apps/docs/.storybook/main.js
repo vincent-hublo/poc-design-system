@@ -26,7 +26,7 @@ const config = {
       resolve: {
         alias: [
           {
-            find: 'react-ui',
+            find: '@hublo/react-ui',
             replacement: resolve(__dirname, '../../../packages/react-ui/'),
           },
         ],

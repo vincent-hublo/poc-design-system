@@ -1,5 +1,5 @@
 {
-  "name": "react-ui",
+  "name": "@hublo/react-ui",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@ark-ui/react": "^0.15.0",
-    "panda-presets": "workspace:*"
+    "@hublo/panda-presets": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

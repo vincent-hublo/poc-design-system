@@ -26,18 +26,18 @@ importers:
 
   apps/docs:
     dependencies:
-      panda-presets:
+      '@hublo/panda-presets':
         specifier: workspace:*
         version: link:../../packages/panda-presets
+      '@hublo/react-ui':
+        specifier: workspace:*
+        version: link:../../packages/react-ui
       react:
         specifier: ^18.2.0
         version: 18.2.0
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
-      react-ui:
-        specifier: workspace:*
-        version: link:../../packages/react-ui
     devDependencies:
       '@pandacss/dev':
         specifier: ^0.15.5
@@ -115,7 +115,7 @@ importers:
       '@ark-ui/react':
         specifier: ^0.15.0
         version: 0.15.0(@internationalized/date@3.5.0)(react-dom@18.2.0)(react@18.2.0)
-      panda-presets:
+      '@hublo/panda-presets':
         specifier: workspace:*
         version: link:../panda-presets
     devDependencies:

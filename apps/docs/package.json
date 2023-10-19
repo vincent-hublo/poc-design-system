@@ -1,5 +1,5 @@
 {
-  "name": "@acme/docs",
+  "name": "@hublo/storybook-react",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -13,8 +13,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-ui": "workspace:*",
-    "panda-presets": "workspace:*"
+    "@hublo/react-ui": "workspace:*",
+    "@hublo/panda-presets": "workspace:*"
   },
   "devDependencies": {
     "@pandacss/dev": "^0.15.5",

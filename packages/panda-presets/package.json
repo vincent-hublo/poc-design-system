@@ -1,5 +1,5 @@
 {
-  "name": "panda-presets",
+  "name": "@hublo/panda-presets",
   "devDependencies": {
     "@pandacss/dev": "^0.15.5",
     "tsup": "7.2.0"
