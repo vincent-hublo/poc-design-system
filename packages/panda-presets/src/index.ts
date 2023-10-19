@@ -1,3 +1,5 @@
+import './index.css'
+
 import { breakpoints } from './theme/breakpoints'
 import { conditions } from './conditions'
 import { definePreset } from '@pandacss/dev'

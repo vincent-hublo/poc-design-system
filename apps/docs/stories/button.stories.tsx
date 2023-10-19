@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { Button } from '@hublo/react-ui/src/button'
+import { Button } from '@hublo/react-ui'
 import { button } from '../styled-system/recipes'
 
 const meta: Meta<typeof Button> = {

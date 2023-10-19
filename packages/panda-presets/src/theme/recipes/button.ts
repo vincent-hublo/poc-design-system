@@ -152,7 +152,7 @@ export const button = defineRecipe({
           height: '5',
         },
       },
-      xxxxxxl: {
+      xxl: {
         h: '20',
         minW: '20',
         textStyle: 'lg',
